@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo Neymar</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #007a33;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        article {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #007a33;
+        }
+        .video {
+            margin: 10px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #007a33;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Catálogo Neymar</h1>
+    <p>Conheça a trajetória e momentos marcantes do craque brasileiro.</p>
+</header>
+
+<div class="container">
+
+    <article>
+        <h2>Quem é Neymar?</h2>
+        <p>Neymar da Silva Santos Júnior, mais conhecido como Neymar, é um jogador de futebol brasileiro que atua como atacante. Considerado um dos melhores jogadores do mundo, Neymar começou sua carreira no Santos FC, onde alcançou fama internacional antes de se transferir para o FC Barcelona e, posteriormente, para o Paris Saint-Germain (PSG).</p>
+    </article>
+
+    <article>
+        <h2>Momentos marcantes</h2>
+        <ul>
+            <li>É considerado o artilheiro da Seleção Brasileira em competições internacionais.</li>
+            <li>Participou de várias Copas do Mundo, incluindo a Copa de 2014, realizada no Brasil.</li>
+            <li>Conquistou a Liga dos Campeões da UEFA com o Barcelona em 2015.</li>
+        </ul>
+    </article>
+
+    <article>
+        <h2>Vídeos sobre Neymar</h2>
+        <div class="video">
+            <h3>Neymar com jogadas incríveis</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rPAxrIrw1oU" title="Neymar com jogadas incríveis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="video">
+            <h3>Momentos emocionantes de Neymar</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/5RhtwtZ_Hd8" title="Momentos emocionantes de Neymar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </article>
+
+</div>
+
+<footer>
+    <p>&copy; 2023 Catálogo Neymar. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
